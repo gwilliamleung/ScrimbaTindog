@@ -1,1 +1,4 @@
-console.log("WHATS UP!")
+document.getElementById("btn").addEventListener("click",function(){
+    console.log("HELLO!")
+});
+
