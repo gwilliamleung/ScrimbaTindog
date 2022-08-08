@@ -23,6 +23,6 @@ function render(){
     interfaceEl.innerHTML = " "
     interfaceEl.innerHTML = currentDog.getInferfaceHtml
 }
-
+render()
 render()
 render()
