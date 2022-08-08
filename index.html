@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+    <script type="module" src="scripts.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
@@ -19,15 +19,16 @@
                 <img class="smallicons"src="images/icon-chat.png">
             </div>
         </header>
-        <main>
-            <div class="container">
-                <h1>Rex, 30</h1>
+
+        <main id="interface">
+            <div id="bio" class="container">
+                <h1 id="name">ASDIASD, 30</h1>
                 <h2>How you doing?</h2>
             </div>
+            <div id="buttons" class="container">
+                <button id="nopeBtn"><img src="images/icon-cross.png"></button>
+                <button id="likeBtn"><img src="images/icon-heart.png"></button>
+            </div>
         </main>
-        <div class="choices container">
-            <button id="btn"><img src="images/icon-cross.png"></button>
-            <button id="btn"><img src="images/icon-heart.png"></button>
-        </div>
     </body>
 </html>
